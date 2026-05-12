@@ -46,6 +46,6 @@
     "stylelint-prettier": "^5.0.2",
     "stylelint-use-nesting": "^6.0.2",
     "typescript": "^5",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^6.1.1"
   }
 }
