@@ -1,0 +1,25 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    cooldown:
+      default-days: 1
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      minor:
+        update-types:
+          - "minor"
+      patch:
+        update-types:
+          - "patch"
+  - package-ecosystem: "github-actions"
+    cooldown:
+      default-days: 1
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      actions:
+        patterns:
+          - "*"
